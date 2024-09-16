@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Card from "./Card/Card.jsx"
+import Avatar from "./Avatar.jsx";
 
 ReactDOM.render(
   <div>
     <h1 className="heading">My Contacts</h1>
+    <Avatar src = "https://cdn.dribbble.com/users/1247443/screenshots/7807183/eye_dribbble_4x.jpg" />
     <Card 
       name="Beyonce"
       src="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"

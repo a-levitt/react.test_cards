@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "../Avatar.jsx"
+import Details from "../Details.jsx"
 
 const Card = (props) => {
     return (
@@ -12,8 +13,8 @@ const Card = (props) => {
           />
         </div>
         <div className="bottom">
-          <p className="info">{props.phone}</p>
-          <p className="info">{props.email}</p>
+          <Details detailInfo={props.phone} />
+          <Details detailInfo={props.email} />
         </div>
       </div>
     )
